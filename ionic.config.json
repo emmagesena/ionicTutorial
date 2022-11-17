@@ -1,0 +1,7 @@
+{
+  "name": "globomantics",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
