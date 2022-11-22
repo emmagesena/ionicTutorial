@@ -19,7 +19,7 @@ const Product = () => (
         <IonHeader>
             <IonToolbar>
                 <IonImg className='logosmall' src='https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/34749/planet-earth-clipart-md.png'/>
-                <IonButtons slot='end'>
+                <IonButtons slot='start'>
                     <IonBackButton/>
                 </IonButtons>
             </IonToolbar>
