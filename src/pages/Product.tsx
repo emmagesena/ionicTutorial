@@ -7,7 +7,8 @@ import {
     IonFooter,
     IonImg,
     IonButtons,
-    IonButton
+    IonButton,
+    IonBackButton
 } from '@ionic/react';
 
 import ProductContent from '../components/ProductContent';
@@ -19,7 +20,7 @@ const Product = () => (
             <IonToolbar>
                 <IonImg className='logosmall' src='https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/34749/planet-earth-clipart-md.png'/>
                 <IonButtons slot='end'>
-                    <IonButton routerLink='/home'>Back to Home</IonButton>
+                    <IonBackButton/>
                 </IonButtons>
             </IonToolbar>
             <IonToolbar>

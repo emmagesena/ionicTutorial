@@ -24,7 +24,6 @@ const Home: React.FC = () => {
           <IonButtons slot='end'>
             <IonButton routerLink='/news'>News</IonButton>
             <IonButton routerLink='/shop'>Shop</IonButton>
-            <IonButton>Contact</IonButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
